@@ -1,0 +1,24 @@
+{
+  "name": "parkingcar",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon -x 'node index.js || (sleep 5; touch index.js)'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewMihawk/parkingCar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewMihawk/parkingCar/issues"
+  },
+  "homepage": "https://github.com/NewMihawk/parkingCar#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
