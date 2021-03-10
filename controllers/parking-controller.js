@@ -6,9 +6,18 @@ async function createParking(req) {
   return user
 }
 
+async function getParking(req) {
+  const user = await getParkingService(req.body)
+  return user
+}
+
+
 
 module.exports = {
   createParking : expressHandler({
     handler : createParking
+  }),
+  getParking : expressHandler({
+    handler : getParking
   })
 }
